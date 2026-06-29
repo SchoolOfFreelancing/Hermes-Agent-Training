@@ -32,8 +32,7 @@ By the end of this Training, students will be able to:
 - Search, apply, and win freelance jobs
 - Deliver work, collect feedback, and withdraw earnings
 - Guaranteed Income Based On Two Conditions:
-Attend all training regularly and don't leave training due to personal issue or any technical glitches
-You need to purchase the necessary bids/connects on the freelance marketplace to apply jobs
+Attend all training regularly and don't leave training due to personal issue or any technical glitches and need to purchase the necessary bids/connects on the freelance marketplace to apply jobs
 
 ---
 
