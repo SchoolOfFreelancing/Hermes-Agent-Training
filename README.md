@@ -1,8 +1,28 @@
-# Hermes Agent Hands-on Training
-**Web Dashboard Development, Agent Capabilities & Freelance Launch**
-*By School Of Freelancing*
+<p align="center">
+  <img src="banner.png" alt="Hermes Agent" width="100%">
+</p>
 
----
+<p align="center">
+  <a href="https://github.com/SchoolOfFreelancing/Hermes-Agent-Training.git/">Hermes Agent Training</a> | <a href="https://github.com/SchoolOfFreelancing/Hermes-Agent-Support.git/">Hermes Agent Support</a>
+</p>
+
+<p align="center">
+  <a href="https://t.me/SchoolOfFreelancingTraining">
+    <img src="https://img.shields.io/badge/Telegram-Get%20Live%20Support-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Support">
+  </a>
+
+  <a href="https://wa.me/8801748973769">
+    <img src="https://img.shields.io/badge/WhatsApp-Get%20Live%20Support-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Support">
+  </a>
+
+  <a href="https://nousresearch.com">
+    <img src="https://img.shields.io/badge/Built%20by-Nous%20Research-blueviolet?style=for-the-badge" alt="Built by Nous Research">
+  </a>
+</p>
+
+# Hermes Agent Training  ☤
+
+Start Your Hermes Agent Freelancing Career and Win High-Paying Clients Worldwide.
 
 ## 📌 Overview
 
@@ -107,4 +127,22 @@ Attend all training regularly and don't leave training due to personal issue or 
 
 Students who complete all 6 days and submit a live working agent + at least one job application get Credential Verification Support from School Of Freelancing.
 
+## Get Expert Training
+Contact us on [WhatsApp](https://wa.me/8801748973769) or [Telegram](https://t.me/SchoolOfFreelancingTraining) to start Hermes Agent Training.
+
 ---
+
+# Hermes Agent Web Dashboard
+
+```
+───────────────────────────────────────────────
+✧(｡•̀ᴗ-)✧ Hermes Agent: Stable Release
+───────────────────────────────────────────────
+```
+
+![Hermes Agent](web.png)
+
+## Disclaimer
+This repository is intended to provide Hermes Agent installation Freelance Support. Product names, trademarks, and service names belong to [Nous Research](https://nousresearch.com/).
+
+⭐ If this repository helps you, please consider starring it and sharing it with others.
