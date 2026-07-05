@@ -22,7 +22,7 @@
 
 # Hermes Agent Training  ☤
 
-Start Your Hermes Agent Freelancing Career and Win High-Paying Clients Worldwide.
+Start Your Hermes Agent Freelancing Career and Win High-Paying Clients Worldwide. **Built for Freelancers, by Freelancers**
 
 ## 📌 Overview
 
@@ -190,12 +190,9 @@ This repository is intended to provide Hermes Agent installation Freelance Suppo
 
 ⭐ If this repository helps you, please consider starring it and sharing it with others.
 
-
-**Built for Freelancers, by Freelancers**
-
 <div align="center">
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/AnythingLinux?style=social)](https://twitter.com/AnythingLinux)
+[![Twitter Mentor](https://img.shields.io/twitter/follow/AnythingLinux?style=social)](https://twitter.com/AnythingLinux)
 
 </div>
 
