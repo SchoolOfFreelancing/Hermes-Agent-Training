@@ -123,14 +123,55 @@ Attend all training regularly and don't leave training due to personal issue or 
 
 ---
 
-## Credential Verification Support
-
-Students who complete all 6 days and submit a live working agent + at least one job application get Credential Verification Support from School Of Freelancing.
-
 ## Get Expert Training
 Contact us on [WhatsApp](https://wa.me/8801748973769) or [Telegram](https://t.me/SchoolOfFreelancingTraining) to start Hermes Agent Training.
 
 ---
+
+# FAQs
+
+<details>
+<summary><b>What is Hermes Agent?</b></summary>
+
+A self-hosted AI agent platform. Training covers installation, configuration, and deployment for client use.
+</details>
+
+<details>
+<summary><b>Do I need coding experience?</b></summary>
+
+No. Basic Linux command-line familiarity is enough to start.
+</details>
+
+<details>
+<summary><b>How long is the course?</b></summary>
+
+15 modules, ~30 hours total, at 3 hours/day.
+
+</details>
+
+<details>
+<summary><b>What will I be able to do after completing it?</b></summary>
+
+Deploy, configure, and support Hermes Agent for freelance clients, including troubleshooting and Upwork-ready delivery.
+</details>
+
+<details>
+<summary><b>What is Guaranteed Minimum Income (GMI)?</b></summary>
+
+School of Freelancing's Guaranteed Minimum Income (GMI) ensures eligible trainees earn a minimum income after completing the program by following our guidelines.
+</details>
+
+<details>
+<summary><b>What is Credential Verification Support?</b></summary>
+
+School of Freelancing offers Credential Verification Support — if any organization wants to confirm a student's training, they can verify your credentials directly with us.
+</details>
+
+<details>
+<summary><b>Can I pay installments for join this training?</b></summary>
+
+No we don't offer any installments payment to join our training
+</details>
 
 # Hermes Agent Web Dashboard
 
