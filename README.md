@@ -192,7 +192,7 @@ This repository is intended to provide Hermes Agent installation Freelance Suppo
 
 <div align="center">
 
-[![Twitter Mentor](https://img.shields.io/twitter/follow/AnythingLinux?style=social)](https://twitter.com/AnythingLinux)
+[![Twitter Follow](https://img.shields.io/twitter/follow/AnythingLinux?style=social)](https://twitter.com/AnythingLinux)
 
 </div>
 
