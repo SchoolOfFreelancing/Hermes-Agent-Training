@@ -185,6 +185,12 @@ No we don't offer any installments payment to join our training
 
 <br/>
 
+## Disclaimer
+This repository is intended to provide Hermes Agent installation Freelance Support. Product names, trademarks, and service names belong to [Nous Research](https://nousresearch.com/).
+
+⭐ If this repository helps you, please consider starring it and sharing it with others.
+
+
 **Built for Freelancers, by Freelancers**
 
 <div align="center">
@@ -195,7 +201,3 @@ No we don't offer any installments payment to join our training
 
 <div align="center"> Made with ❤️ in Bangladesh </div>
 
-## Disclaimer
-This repository is intended to provide Hermes Agent installation Freelance Support. Product names, trademarks, and service names belong to [Nous Research](https://nousresearch.com/).
-
-⭐ If this repository helps you, please consider starring it and sharing it with others.
