@@ -184,10 +184,13 @@ No we don't offer any installments payment to join our training
 ![Hermes Agent](web.png)
 
 <br/>
+
 **Built for Freelancers, by Freelancers**
 
 <div align="center">
-[![Twitter Follow](https://img.shields.io/twitter/follow/Masum?style=social)](https://x.com/intent/user?screen_name=AnythingLinux)
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/AnythingLinux?style=social)](https://twitter.com/AnythingLinux)
+
 </div>
 
 <div align="center"> Made with ❤️ in Bangladesh </div>
