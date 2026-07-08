@@ -34,8 +34,8 @@ A 6-day intensive Training covering end-to-end Hermes Agent dashboard developmen
 | **Schedule** | 5 Sessions/Week · 5 Hours/Session |
 | **Format** | Instructor-Led Training + Hands-On Training |
 | **Level** | Beginner to Job-Ready |
-| **Freelance marketplace** | Upwork & Freelancer
-| **Prerequisite** | Linux server, domain, Cloud AI API, Telegram Bot & Linux terminal familiarity |
+| **Freelance Marketplace** | Upwork 
+| **Training Package** | Linux server, domain, Cloud AI API, Telegram Bot & Linux terminal familiarity |
 
 ---
 
