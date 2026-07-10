@@ -21,7 +21,6 @@
 </p>
 
 # Hermes Agent Training  ☤
-### From Beginner to Professional Hermes Agent Support Engineer in 30 Days
 
 Start Your Hermes Agent Freelancing Career and Win High-Paying Clients Worldwide. **Built for Freelancers, by Freelancers**
 
