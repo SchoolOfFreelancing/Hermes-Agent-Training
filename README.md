@@ -22,11 +22,11 @@
 
 # Hermes Agent Training  ☤
 
-**Built for Freelancers, by Freelancers** 
+## **Built for Freelancers, by Freelancers** 
 
-## 📌 Overview
+### 📌 Hands-on Training Overview
 
-A production-ready, hands-on, project-based training curriculum that turns participants into freelance-ready Hermes Agent specialists — capable of installing, deploying, customizing, troubleshooting, maintaining, integrating, migrating, and consulting on Hermes Agent for clients worldwide.
+This project-based training transforms you into a freelance Hermes Agent Support Specialist. Master installation, deployment, customization, troubleshooting, migration, and integration. Learn to land high-paying clients on Upwork, Freelancer, Guru, and direct global networks.
 ---
 
 ## Table of Contents
