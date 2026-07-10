@@ -22,7 +22,7 @@
 
 # Hermes Agent Training  ☤
 
-Start Your Hermes Agent Freelancing Career and Win High-Paying Clients Worldwide. **Built for Freelancers, by Freelancers**
+**Built for Freelancers, by Freelancers** 
 
 ## 📌 Overview
 
