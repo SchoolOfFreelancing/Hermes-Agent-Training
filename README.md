@@ -22,7 +22,7 @@
 
 # Hermes Agent Training  ☤
 
-## **Built for Freelancers, by Freelancers** 
+## Built for Freelancers, by Freelancers
 
 📌 Hands-on Training Overview
 
