@@ -25,6 +25,7 @@
 ## Built for Freelancers, by Freelancers
 
 ### 📌 Hands-on Training Overview
+---
 
 This project-based training transforms you into a freelance Hermes Agent Support Specialist. Master installation, deployment, customization, troubleshooting, migration, and integration. Learn to land high-paying clients on Upwork, Freelancer, Guru, and direct global networks.
 ---
