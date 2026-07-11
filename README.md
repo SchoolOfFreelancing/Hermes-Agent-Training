@@ -10,39 +10,36 @@
   <a href="https://t.me/SchoolOfFreelancingTraining">
     <img src="https://img.shields.io/badge/Telegram-Get%20Live%20Support-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Support">
   </a>
-
   <a href="https://wa.me/8801748973769">
     <img src="https://img.shields.io/badge/WhatsApp-Get%20Live%20Support-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Support">
   </a>
-
   <a href="https://nousresearch.com">
     <img src="https://img.shields.io/badge/Built%20by-Nous%20Research-blueviolet?style=for-the-badge" alt="Built by Nous Research">
   </a>
 </p>
 
-# Hermes Agent Training  ☤
+# Hermes Agent Training ☤
 
 ## Built for Freelancers, by Freelancers
 
 ### 📌 Hands-on Training Overview
 
-**This project-based training transforms you into a freelance Hermes Agent Support Specialist. Master installation, deployment, customization, troubleshooting, migration, and integration. Learn to land high-paying clients on Upwork, Freelancer, Guru, and direct global networks.**
+**A 2-week, project-based training that turns you into a freelance Hermes Agent Support Specialist. Master installation, deployment, troubleshooting, and integration — then land clients on Upwork, Freelancer, Guru, and direct channels.**
+
 ---
 
 ## Table of Contents
 
 1. [Objective](#objective)
 2. [Training Environment](#training-environment)
-3. [Course Duration & Format](#course-duration--format)
+3. [Training Price, Duration & Format](#training-price-duration--format)
 4. [Learning Objectives](#learning-objectives)
-5. [Week 1 – Linux, Cloud & Production Environment](#week-1--linux-cloud--production-environment)
-6. [Week 2 – Hermes Agent Installation & Configuration](#week-2--hermes-agent-installation--configuration)
-7. [Week 3 – Production Deployment & Client Support](#week-3--production-deployment--client-support)
-8. [Week 4 – Freelancing & Real Client Projects](#week-4--freelancing--real-client-projects)
-9. [Capstone Project](#capstone-project)
-10. [Instructor Notes](#instructor-notes)
-11. [Student Workbook Structure](#student-workbook-structure)
-12. [FAQs](#faqs)
+5. [Week 1 – Server Setup & Hermes Deployment](#week-1--server-setup--hermes-deployment)
+6. [Week 2 – Production Hardening & Freelancing](#week-2--production-hardening--freelancing)
+7. [Capstone Project](#capstone-project)
+8. [Instructor Notes](#instructor-notes)
+9. [Student Workbook Structure](#student-workbook-structure)
+10. [FAQs](#faqs)
 
 ---
 
@@ -58,32 +55,26 @@ This is a **project-based course, not a theory course**. Every lesson pairs conc
 
 All work is done in a **real production environment**, not a sandbox.
 
-| Component | Tool |
-|---|---|
-| VPS Provider | DigitalOcean |
-| OS | Ubuntu Server 24.04 LTS |
-| DNS | Domain/subdomain + Cloudflare (optional) |
-| Access | SSH |
-| Version Control | GitHub |
-| Web Server | NGINX |
-| SSL | Certbot |
-| Process Manager | systemd |
-| Runtime | Python + uv |
-| Containers | Docker (where applicable) |
-| Local LLM | Ollama |
-| Cloud LLMs | OpenAI / Gemini / Anthropic (optional) |
+**Training Prerequisites**
+- DigitalOcean: Ubuntu Linux Server (24.04 or 26.04 LTS recommended)
+- Domain: Any domain or subdomain will work
+- Freelance Marketplace: Verified Upwork · Guru · Freelancer account
+- Land Direct Clients: LinkedIn and YouTube account
+- Rigorous: Patience and concentration required during all sessions
 
-**Prerequisite for each participant:** own DigitalOcean account, own domain or subdomain, and a GitHub account before Day 1.
+**Connectivity**
+- Portable messaging device for 24/7 client communication
+- Reliable fiber-optic internet for uninterrupted sessions
 
 ---
 
-## Course Duration & Format
+## Training Price, Duration & Format
 
-- **Duration:** 1 month (4 weeks)
-- **Schedule:** 5 training days/week, 20 sessions total
-- **Session length:** 2 hours (hands-on lab format)
-- **Cadence:** Daily assignment → Weekly assessment → Final capstone
-- **Class ratio:** Recommended max 1 instructor : 8 participants for effective lab supervision
+- **Fee:** $250
+- **Duration:** 2 weeks
+- **Schedule:** 5 training days/week, 20 hours total
+- **Session length:** 2 hours (hands-on)
+- **Marketplace:** Upwork · Guru · Freelancer
 
 ---
 
@@ -93,164 +84,85 @@ By course completion, participants will be able to:
 
 - Provision and secure an Ubuntu server on DigitalOcean
 - Configure DNS records and domains/subdomains
-- Install and configure Hermes Agent from source
-- Install and manage the Hermes Dashboard
-- Configure AI providers (OpenAI, Ollama, Gemini, Anthropic, OpenRouter, etc.)
-- Build and configure AI agents, Skills, and Memory
-- Integrate MCP servers and tools
-- Set up delegation and provider routing
-- Configure Telegram, Slack, Discord, and Email integrations
-- Secure deployments with NGINX, HTTPS, and Certbot
-- Manage Hermes Agent as a systemd service
-- Monitor logs, troubleshoot issues, and optimize performance
-- Upgrade, back up, restore, and migrate Hermes deployments
+- Install and configure Hermes Agent from source, incl. dashboard
+- Configure AI providers (OpenAI, Ollama, Gemini, Anthropic, OpenRouter)
+- Build Skills, enable Memory, integrate MCP servers/tools
+- Configure Telegram/Slack/Discord/Email integrations
+- Secure deployments with NGINX, HTTPS, Certbot, UFW, fail2ban
+- Run Hermes as a systemd service with auto-restart
+- Monitor logs, troubleshoot issues, back up/restore/upgrade
 - Package and sell Hermes Agent services as a freelancer
 
 ---
 
-## Week 1 – Linux, Cloud & Production Environment
+## Week 1 – Server Setup & Hermes Deployment
 
-**Goal:** Every participant ends the week with a secured, HTTPS-enabled Ubuntu server on their own domain.
+**Goal:** A secured, HTTPS-enabled server running a fully functional Hermes Agent instance with a provider, Skill, and Memory configured.
 
-### Day 1 — DigitalOcean & Server Provisioning
-- **Objectives:** Create and access a droplet; understand VPS sizing/regions
-- **Tools:** DigitalOcean account, SSH client
-- **Lab:** Generate a local SSH key pair, create a Ubuntu 24.04 LTS droplet (minimum 2GB RAM) through the DigitalOcean dashboard, attach the SSH key, and connect to the server as root
-- **Assignment:** Screenshot of successful SSH login; submit droplet IP + region
-- **Troubleshooting guide:** Permission denied (publickey) → check SSH config and key path; connection timeout → check DO firewall rules
+### Day 1 — Server Provisioning & Linux Hardening
+- **Objectives:** Create/access droplet; non-root sudo user; UFW; fail2ban
+- **Lab:** Generate an SSH key pair, create an Ubuntu 24.04 LTS droplet (min 2GB RAM), create a non-root sudo user, allow SSH/web ports in UFW before enabling it, install fail2ban
+- **Assignment:** Firewall status output + non-root user proof
+- **Troubleshooting:** Locked out after UFW enable → always allow SSH *before* enabling; connection timeout → check DO firewall
 
-### Day 2 — Linux Fundamentals & Hardening
-- **Objectives:** Filesystem hierarchy, package management, user management, UFW, fail2ban
-- **Lab:** Update the system, create a non-root sudo user, configure the UFW firewall to allow SSH and web traffic before enabling it, and install fail2ban for brute-force protection
-- **Assignment:** Submit firewall status output and non-root sudo user proof
-- **Troubleshooting guide:** Locked out after UFW enable → always allow SSH port *before* enabling UFW
+### Day 2 — DNS, NGINX & HTTPS
+- **Objectives:** Point domain to droplet; reverse proxy stub; issue SSL cert
+- **Lab:** Create an A record to the droplet IP and verify propagation, install NGINX with a reverse proxy site config, install Certbot and issue an HTTPS cert
+- **Assignment:** Working DNS lookup + site responding over valid HTTPS
+- **Troubleshooting:** DNS not resolving → propagation delay vs wrong record type; Certbot fails → port 80 closed or DNS not propagated
 
-### Day 3 — Domain, DNS & Cloudflare
-- **Objectives:** Point a domain/subdomain to the droplet; understand A/CNAME records; optional Cloudflare proxy
-- **Lab:** Create an A record pointing your chosen subdomain to the droplet's IP address, and verify propagation using a DNS lookup tool
-- **Assignment:** Submit working DNS lookup output
-- **Troubleshooting guide:** DNS not resolving → propagation delay (up to 24h) vs. wrong record type
+### Day 3 — Hermes Agent Source Install & Dashboard
+- **Objectives:** Clone/build/run Hermes from source; install dashboard; connect to reverse proxy
+- **Lab:** Clone the repo, install dependencies, configure environment file, start the agent, point NGINX at it, set dashboard admin auth
+- **Assignment:** Terminal output of successful startup + dashboard login screenshot over HTTPS
+- **Troubleshooting:** Dependency conflicts → pin Python version; port in use → stop conflicting process
 
-### Day 4 — NGINX, systemd & Certbot
-- **Objectives:** Install NGINX, create a reverse proxy stub, issue HTTPS cert
-- **Lab:** Install NGINX, create a reverse proxy site configuration pointing the domain at a local backend port, enable the site, then install Certbot and issue an HTTPS certificate for the domain
-- **Assignment:** Submit a request showing the site responding correctly over HTTPS with a valid certificate
-- **Troubleshooting guide:** Config test fails → syntax error in the server block; Certbot fails → port 80 not open or DNS not yet resolved
+### Day 4 — AI Providers, Skills, Memory & MCP
+- **Objectives:** Configure Ollama (local) + one cloud provider; build a custom Skill; enable Memory; register an MCP tool
+- **Lab:** Pull a local model via Ollama and set it as a provider, configure a cloud AI provider, build a simple Skill (e.g. weather lookup), enable Memory backend, register an MCP tool
+- **Assignment:** Successful test conversation using both providers + working Skill demo
+- **Troubleshooting:** Provider timeout → check API key env var and outbound firewall rules
 
-### Day 5 — Python, uv & systemd Services
-- **Objectives:** Install Python/uv; create and manage a systemd unit for a placeholder service
-- **Lab:** Install Python and the uv package manager, create a virtual environment, then write and enable a systemd unit file for a placeholder service and confirm it is running
-- **Weekly Assessment (quiz + lab check):**
-  - Quiz: 10 MCQs on Linux, DNS, NGINX, systemd, SSL
-  - Lab check: instructor verifies live HTTPS site + systemd service running
+### Day 5 — systemd Service & Week 1 Assessment
+- **Objectives:** Run Hermes as a managed systemd service with auto-restart on boot/failure
+- **Lab:** Write and enable a systemd unit under a dedicated user; kill the process manually and confirm auto-restart
+- **Weekly Assessment:** 10 MCQs (Linux, DNS, NGINX, systemd, providers, Skills, MCP) + live lab check of running HTTPS Hermes instance with provider, Skill, and Memory
 
-**Mini Project (Week 1):** Deploy a secure Ubuntu server with HTTPS on a custom domain — graded pass/fail against the rubric below.
+**Mini Project (Week 1):** A fully deployed, HTTPS-secured Hermes Agent instance with provider, Skill, and Memory — running as a systemd service.
 
 ---
 
-## Week 2 – Hermes Agent Installation & Configuration
+## Week 2 – Production Hardening & Freelancing
 
-**Goal:** A fully functional Hermes Agent instance, connected to at least one AI provider, with Skills and Memory enabled.
+**Goal:** A hardened, monitored, integrated, client-ready Hermes deployment — plus a freelance profile and pricing package ready to publish.
 
-### Day 6 — Hermes Agent Architecture
-- **Objectives:** Understand core components: agent runtime, dashboard, config store, provider layer, MCP layer
-- **Lab:** Diagram the architecture based on official docs; identify config file locations
-- **Assignment:** Submit an architecture diagram (hand-drawn or digital)
+### Day 6 — Security Hardening & Backup/Restore
+- **Objectives:** Harden NGINX (headers, rate limiting); automate cert renewal; back up/restore/upgrade
+- **Lab:** Add security headers (X-Frame-Options, X-Content-Type-Options, HSTS), confirm cert auto-renewal, archive config/data directories, simulate failure, restore from backup, perform a version upgrade
+- **Assignment:** Hardened NGINX config + before/after proof of a successful restore
 
-### Day 7 — Source Installation
-- **Objectives:** Clone, build, and run Hermes Agent from source
-- **Lab:** Clone the Hermes Agent source repository, install dependencies, prepare the environment configuration file, and start the agent locally
-- **Assignment:** Submit terminal output of successful startup
-- **Troubleshooting guide:** Dependency conflicts → pin the required Python version; port in use → identify and stop the conflicting process
+### Day 7 — Logging, Monitoring & Chat Integration
+- **Objectives:** Monitor logs/resource usage; add Telegram/Slack/Discord/Email as an upsell integration
+- **Lab:** Tail service logs under simulated load, configure a chosen platform's bot credentials, enable the channel, restart the service
+- **Assignment:** Log excerpt with a triggered error + root-cause note; proof of working integration
+- **Troubleshooting:** High memory → check Memory backend size limits; webhook not firing → check bot token, HTTPS webhook URL, firewall
 
-### Day 8 — Hermes Dashboard & Authentication
-- **Objectives:** Install dashboard, configure admin auth, connect to reverse proxy from Week 1
-- **Lab:** Update the NGINX reverse proxy target to point at Hermes; set dashboard admin password/token
-- **Assignment:** Submit screenshot of dashboard login over HTTPS
+### Day 8 — Troubleshooting Lab & Week 2 Technical Assessment
+- **Objectives:** Diagnose and fix seeded failures (bad config, expired cert, wrong provider key, systemd misconfig, NGINX 502)
+- **Timed Lab:** Instructor injects 3 faults; participant diagnoses and fixes within 45 minutes
+- **Quiz:** 10 MCQs on production ops
 
-### Day 9 — AI Provider Configuration
-- **Objectives:** Configure Ollama (local), plus at least one cloud provider (OpenAI/Gemini/Anthropic)
-- **Lab:** Install Ollama and pull a local model, then configure Hermes to use it as a provider; separately configure Hermes with credentials for at least one cloud AI provider
-- **Assignment:** Submit a successful test conversation using two different providers
-- **Troubleshooting guide:** Provider timeout → check API key env var and outbound firewall rules
+### Day 9 — Marketplace Profile, Pricing & Proposals
+- **Objectives:** Build an Upwork/Freelancer/Guru profile as a "Hermes Agent Deployment & Support Specialist"; value-based pricing; winning proposals
+- **Activities:** Write headline/overview/skills list using Week 1–2 projects as portfolio; draft 3 tiered packages (Basic Install / Full Deployment / Managed Support); write 2 real job proposals; run a mock client interview
+- **Assignment:** Completed profile draft + pricing sheet + 2 proposals
 
-### Day 10 — Skills, Memory & MCP Basics
-- **Objectives:** Create a custom Skill, enable persistent Memory, connect one MCP server/tool
-- **Lab:** Build a simple "weather lookup" or "ticket triage" Skill; enable Memory backend; register an MCP tool
-- **Weekly Assessment:**
-  - Quiz: 10 MCQs on Hermes architecture, providers, Skills, MCP
-  - Lab check: live demo of agent answering via configured provider + one working Skill
+### Day 10 — Scoping, Handover & Capstone Presentation
+- **Objectives:** Write a Statement of Work and SLA; package a client handover deliverable; present the capstone
+- **Activities:** Draft an SOW/SLA for a sample "Deploy Hermes Agent with Telegram integration" project; prepare a client-facing handover document; present the capstone (15 min) to instructor + peers
+- **Weekly Assessment:** Peer-reviewed mock client proposal + handover package + capstone demo
 
-**Mini Project (Week 2):** Deploy a fully functional Hermes Agent instance connected to an AI model, with one custom Skill and Memory enabled.
-
----
-
-## Week 3 – Production Deployment & Client Support
-
-**Goal:** A hardened, monitored, documented, production-grade Hermes deployment.
-
-### Day 11 — Reverse Proxy & SSL Automation
-- **Objectives:** Harden NGINX config (headers, rate limiting), automate cert renewal
-- **Lab:** Add security headers (X-Frame-Options, X-Content-Type-Options, HSTS) to the NGINX configuration, and confirm certificate auto-renewal is correctly scheduled
-- **Assignment:** Submit NGINX config with security headers + passing SSL Labs scan (or local equivalent check)
-
-### Day 12 — systemd Service Management for Hermes
-- **Objectives:** Run Hermes as a managed systemd service with auto-restart
-- **Lab:** Write a systemd unit file for Hermes Agent that runs it under a dedicated user, restarts automatically on failure, and starts on boot; enable and start the service
-- **Assignment:** Kill the process manually and prove systemd auto-restarts it
-
-### Day 13 — Logging, Monitoring & Performance
-- **Objectives:** Centralize logs, monitor resource usage, tune for load
-- **Lab:** Tail the Hermes Agent service logs in real time and observe CPU/RAM usage under a simulated load
-- **Assignment:** Submit a log excerpt with an intentionally triggered error, plus root-cause note
-- **Troubleshooting guide:** High memory usage → check Memory backend size limits; slow responses → check provider latency vs. local inference load
-
-### Day 14 — Backup, Restore & Upgrades
-- **Objectives:** Back up config/data, simulate disaster recovery, perform a safe version upgrade
-- **Lab:** Archive the configuration and data directories as a backup, simulate a failure, then restore from the backup and perform a version upgrade
-- **Assignment:** Submit before/after proof of a successful restore
-
-### Day 15 — Troubleshooting Common Deployment Issues
-- **Objectives:** Diagnose and fix 5 seeded/injected failures (bad config, expired cert, wrong provider key, systemd misconfig, NGINX 502)
-- **Weekly Assessment:**
-  - Timed lab: instructor injects 3 faults; participant must diagnose and fix within 45 minutes
-  - Quiz: 10 MCQs on production ops
-
-**Mini Project (Week 3):** Deploy a production-ready Hermes Agent environment that is secure, stable, monitored, and fully documented (README + runbook).
-
----
-
-## Week 4 – Freelancing & Real Client Projects
-
-**Goal:** Convert technical skill into a sellable freelance service.
-
-### Day 16 — Marketplace Profile & Positioning
-- **Objectives:** Build a professional Upwork/Freelancer.com/Guru.com profile positioned as a "Hermes Agent Deployment & Support Specialist"
-- **Activities:** Write headline, overview, and skills list; select portfolio pieces from Weeks 1–3 projects
-- **Assignment:** Submit completed profile draft for peer + instructor review
-
-### Day 17 — Pricing, Proposals & Client Interviews
-- **Objectives:** Learn value-based pricing, write winning proposals, handle client interviews
-- **Activities:** Draft 3 tiered service packages (Basic Install / Full Deployment / Managed Support); write 2 real job proposals; run a mock client interview
-- **Assignment:** Submit pricing sheet + 2 proposals for feedback
-
-### Day 18 — Scoping, SOWs & SLAs
-- **Objectives:** Define project scope, write a Statement of Work and a Service Level Agreement
-- **Activities:** Draft an SOW and SLA for a sample "Deploy Hermes Agent with Telegram integration" project
-- **Assignment:** Submit SOW + SLA documents
-
-### Day 19 — Integrations Deep Dive (Telegram / Slack / Discord / Email)
-- **Objectives:** Add a chat-platform integration as a premium upsell service
-- **Lab:** Configure the chosen platform's bot credentials in the Hermes environment configuration, enable the corresponding channel, and restart the service
-- **Assignment:** Submit proof of a working Telegram (or Slack/Discord) integration
-- **Troubleshooting guide:** Webhook not firing → check bot token, HTTPS webhook URL, and firewall
-
-### Day 20 — Client Onboarding, Documentation & Handover
-- **Objectives:** Package a full client deliverable: documentation, maintenance plan, handover checklist
-- **Activities:** Prepare a client-facing handover document; simulate final walkthrough call
-- **Weekly Assessment:** Peer-reviewed mock client proposal + handover package
-
-**Mini Project (Week 4):** Complete freelancer profile, 3 service packages, 1 SOW/SLA pair, and 1 integration case study — ready to publish.
+**Mini Project (Week 2):** A hardened, monitored, integrated production deployment, plus a freelancer profile, pricing sheet, SOW/SLA, and handover package ready to publish.
 
 ---
 
@@ -277,10 +189,10 @@ By course completion, participants will be able to:
 
 ## Instructor Notes
 
-- Enforce **"own server, own domain"** from Day 1 — no shared sandboxes; real production experience is the differentiator of this course.
-- Seed intentional faults during Week 3 and the final exam (bad NGINX config, expired token, wrong systemd path) to build genuine debugging reflexes, not memorized steps.
-- Weeks 1–3 should end with a **graded live check** on the participant's actual running server, not a slide review.
-- Week 4 mock client interviews should be run by instructor or peer acting as a skeptical client — reward participants who ask clarifying scoping questions before quoting price.
+- Enforce **"own server, own domain"** from Day 1 — no shared sandboxes.
+- Seed intentional faults on Day 8 (bad NGINX config, expired token, wrong systemd path) to build genuine debugging reflexes.
+- Both weeks end with a **graded live check** on the participant's actual running server, not a slide review.
+- Day 9 mock client interview should be run by instructor or peer acting as a skeptical client — reward participants who ask clarifying scoping questions before quoting price.
 - Maintain a shared repo of proposal templates, SOW/SLA templates, and pricing sheets for participants to fork and customize.
 - Encourage participants to record their capstone demo — it becomes portfolio/marketing content for their freelance profile and YouTube/LinkedIn presence.
 
@@ -290,12 +202,10 @@ By course completion, participants will be able to:
 
 Each participant maintains a workbook (repo or document) with:
 
-1. `/week1-server-setup/` — commands run, screenshots, DNS records, UFW/Certbot proof
-2. `/week2-hermes-install/` — install logs, provider configs (secrets redacted), architecture diagram
-3. `/week3-production/` — NGINX configs, systemd unit files, backup logs, fault-fix write-ups
-4. `/week4-freelance/` — profile draft, pricing sheet, proposals, SOW/SLA, integration proof
-5. `/capstone/` — full documentation, runbook, handover package, demo recording link
-6. `/notes/` — daily reflections and troubleshooting log (personal knowledge base for future client work)
+1. `/week1-server-hermes/` — commands run, screenshots, DNS records, UFW/Certbot proof, provider/Skill/Memory configs (secrets redacted)
+2. `/week2-production-freelance/` — hardened NGINX config, systemd unit, backup logs, fault-fix write-ups, profile draft, pricing sheet, SOW/SLA
+3. `/capstone/` — full documentation, runbook, handover package, demo recording link
+4. `/notes/` — daily reflections and troubleshooting log (personal knowledge base for future client work)
 
 This workbook doubles as the participant's **portfolio evidence** for marketplace profiles and client pitches.
 
@@ -315,7 +225,7 @@ No. Basic Linux command-line familiarity is enough to start.
 
 <details>
 <summary><b>How long is the course?</b></summary>
-15 modules, ~30 hours total, at 3 hours/day.
+2 weeks, 10 sessions, 20 hours total, at 2 hours/day.
 </details>
 
 <details>
@@ -334,8 +244,8 @@ School of Freelancing offers Credential Verification Support — if any organiza
 </details>
 
 <details>
-<summary><b>Can I pay installments for join this training?</b></summary>
-No we don't offer any installments payment to join our training.
+<summary><b>Can I pay in installments to join this training?</b></summary>
+No, we don't offer installment payments to join our training.
 </details>
 
 # Hermes Agent Web Dashboard
@@ -362,4 +272,3 @@ This repository is intended to provide Hermes Agent installation Freelance Suppo
 </div>
 
 <div align="center"> Made with ❤️ in Bangladesh </div>
-
